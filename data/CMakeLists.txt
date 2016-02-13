@@ -11,7 +11,7 @@ set(EXT_PROJECTS_DIR ${PROJECT_SOURCE_DIR}/ext)
 
 set(CMAKE_CXX_FLAGS "-std=c++11")
 
-add_subdirectory(${EXT_PROJECTS_DIR}/easyloggingcpp)
+# add_subdirectory(${EXT_PROJECTS_DIR}/easyloggingcpp)
 add_subdirectory(${EXT_PROJECTS_DIR}/gtest)
 
 add_subdirectory(src)
